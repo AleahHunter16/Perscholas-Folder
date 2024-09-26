@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Resume</title>
+  <style>
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;}
+    
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Section */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    /* Personal Information Section */
+    .personal-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .personal-info div {
+      flex-basis: 45%;
+    }
+    .personal-info h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      text-align: right;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    /* Sections (Experience, Education, Skills) */
+    section {
+      margin-bottom: 30px;
+    }
+    section h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>Jordan Hunter</h1>
+</header>
+
+<div class="container">
+<!-- Personal Info -->
+<div class="personal-info">
+<div class="summary">
+<h2>Summary</h2>
+<p>Highly experienced Credit Specialist with a proven track record of five years in the banking industry. Seeking a challenging position as an aspiring Threat Hunter with a strong foundation in cybersecurity and a passion for proactively identifying and mitigating cyber threats.</p>
+</div>
+<div class="contact-info">
+<h2>Contact</h2>
+<p>Email: jordanHunter9616@gmail.com</p>
+<p>Phone: (336) 212-8545</p>
+<p>Location: North Carolina</p>
+</div>
+</div>
+
+<!-- Experience Section -->
+<section id="experience">
+<h2>Experience</h2>
+<ul>
+<li>
+<h3>CompTIA PenTest+ ,CompTIA Security Analyst- Greensboro College</h3>
+<p>December 2023 - February 2024</p>
+<p>threat hunting and or other areas of cybersecurity to safeguard organizations against evolving security risks to utilize my expertise in credit analysis, risk assessment, to contribute to the institution's growth and profitability.</p>
+</li>
+<li>
+<h3>Credit Specialist</h3>
+<p>Dec 2018 - Present</p>
+<p>Conducting thorough credit analysis for loan applications, evaluating financial statements, credit histories, and collateral assets. Assessing credit risks and making recommendations on loan approvals, extensions, and
+renewals, ensuring compliance with established policies and regulations.
+Collaborating with loan officers and relationship managers to gather additional
+information for credit assessments and to structure loan deals. Monitoring credit portfolios, identifying early warning signs of credit deterioration and
+proactively proposing risk mitigation strategies.</p>
+</li>
+</ul>
+</section>
+
+<!-- Education Section -->
+<section id="education">
+<h2>Education</h2>
+<ul>
+<li>
+<h3>BS in Computer Science - Grand Canyon University</h3>
+<p>Graduated: Pending</p>
+</li>
+</ul>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>Cybersecurity</li>
+<li>Data Analytics</li>
+<li>Compliance Regulations</li>
+<li>Risk Management</li>
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+<li>React</li>
+<li>Node.js</li>
+<li>Git/GitHub</li>
+</ul>
+</section>
+</div>
+
+<footer>
+<p>Jordan Hunter - Web Developer</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width initial-scale=1.0">
+    <title>Admin - Jordan Hunter</title>
+    <!--Bootstrap CSS-->
+    <link href="Bootstrap style" rel="stylesheet">
+    <style>
+        /*Sidebar <styles>
+                .sidebar{height:100vh;width:250px;background-color:#FF0000;padding-top:20px;position:fixed;}
+                .sidebar a{color:#0000FF;padding:10px 15px; text-decoration:none;display:block;}
+                .sidebar a:hover psuedo-class{background-color:#000F}
+                /*Main <content></content>
+                <div class="main"></div>{margin-left:250px;padding:20px;}
+                <div class="header-title">font-size:2rem;<margin-bottom:20px></margin-bottom:20px></div>
+                </styles>
+                </head>
+                <body>
+                    <!--Sidebar-->
+                    <div class="Sidebar">
+                        <h4 class="text-center text"> Admin Panel</h4>
