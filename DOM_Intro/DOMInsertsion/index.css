@@ -1,0 +1,16 @@
+body{
+    border: 1px solid blue
+}
+
+ol{
+    border: 1px solid red
+}
+li{
+    border: 1px solid green
+}
+div{
+    border: 1px solid gold
+}
+ul{
+    border: 1px solid black
+}
